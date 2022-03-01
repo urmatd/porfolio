@@ -26,6 +26,13 @@ body {
   margin: 0 auto;
   padding: 0px 15px;
 }
+.section {
+  padding: 60px 0;
+}
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
 
 .header {
   background-color: var(--accent);
@@ -74,4 +81,83 @@ body {
 
 .header-menu-link:hover {
   background-color: var(--accent-light);
+}
+
+.intro {
+  padding: 60px 0;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-left {
+  width: 30%;
+}
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.intro-right {
+  width: 60%;
+}
+
+.intro-right h1,
+.intro-right h3 {
+  margin: 0 0 10px;
+}
+.contacts {
+  margin-bottom: 60px;
+}
+.contacts ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contacts li {
+  text-align: center;
+}
+
+.skills {
+  background-color: var(--accent);
+  color: var(--pure-white);
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skills li {
+  padding: 10px 25px;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+
+.code-example {
+  text-align: center;
+}
+.code-example p {
+  font-style: italic;
+}
+.code-example b {
+  font-style: normal;
+}
+
+.code-example pre {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--accent);
+  color: var(--pure-white);
+  border-radius: 8px;
 }
