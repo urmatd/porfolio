@@ -154,10 +154,68 @@ body {
 }
 
 .code-example pre {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   text-align: left;
   background-color: var(--accent);
   color: var(--pure-white);
   border-radius: 8px;
+}
+
+.portfolio-img {
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--accent);
+  border-radius: 8px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-img img {
+  width: 500px;
+  padding: 20px 0 20px 0;
+}
+
+.language ul {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--accent);
+  color: var(--pure-white);
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.education ul {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--accent);
+  color: var(--pure-white);
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.footer {
+  background-color: var(--accent);
+}
+.footer p {
+  color: var(--pure-white);
+  text-align: center;
+}
+
+.footer a {
+  color: var(--pure-white);
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: grey;
+}
+
+.footer .container {
+  padding: 10px 0 20px 0;
 }
